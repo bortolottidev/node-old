@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "d.bortolotti",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.73.0",
+    "yargs": "^14.0.0"
+  }
+}
