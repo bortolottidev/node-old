@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet"
+        type="text/css"
+        href="/stylesheets/style.css"
+    >
+</head>
+ 
+<body>
+    <h1> This is the {{ name }} Template </h1>
+    {{#user}}
+    <h3> Welcome back {{user.name}}!</h3>
+    {{/user}}
+    <p> Today is {{ date }}. Lot of names here: </p>
+    <ol>
+        {{#profiles}}
+            <li> {{ name }} </li>
+        {{/profiles}}
+    </ol>
+
+    <form method="post" action="/join">
+        <input type="text" name="name" placeholder="Name" /><br />
+        <input type="text" name="city" placeholder="City" /><br />
+        <input type="text" name="profession" placeholder="Profession" /><br />
+        <input type="submit" value="Add Profile" />
+    </form>
+
+    <img style="width: 1000px" src="/images/image_rec_lib_banner.jpg" />
+</body>
+ 
+</html>

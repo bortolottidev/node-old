@@ -1,0 +1,14 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Error #{{status}}</h1>
+        <p>{{message}}</p>
+    </div>
+</body>
+
+</html>

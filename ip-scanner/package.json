@@ -1,0 +1,19 @@
+{
+  "name": "hello-moment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "start": "node hello.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "network-list": "^1.1.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "url": "^0.11.0"
+  }
+}
